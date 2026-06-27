@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaFlow - AI-Powered Workflow Automation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">NexaFlow</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Automate Your Workflow with <span>AI Intelligence</span></h1>
+                <p>Transform your business operations with NexaFlow's intelligent automation platform. Reduce manual tasks by 80% and focus on what matters most.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Get Started Free</a>
+                    <a href="#about" class="btn btn-secondary">Watch Demo</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-mockup">
+                    <div class="mock-card">
+                        <h4>Active Workflows</h4>
+                        <div class="value">2,847</div>
+                    </div>
+                    <div class="mock-card">
+                        <h4>Time Saved</h4>
+                        <div class="value">1,240h</div>
+                    </div>
+                    <div class="mock-card">
+                        <h4>Efficiency</h4>
+                        <div class="value">+94%</div>
+                    </div>
+                    <div class="mock-chart"></div>
+                    <div class="mock-card" style="grid-column: span 3;">
+                        <h4>Recent Automation</h4>
+                        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                            <div style="flex: 1; height: 8px; background: rgba(99,102,241,0.3); border-radius: 4px;"></div>
+                            <div style="flex: 1; height: 8px; background: rgba(139,92,246,0.3); border-radius: 4px;"></div>
+                            <div style="flex: 1; height: 8px; background: rgba(6,182,212,0.3); border-radius: 4px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stat-item">
+            <div class="stat-number">10K+</div>
+            <div class="stat-label">Active Users</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Companies</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">99.9%</div>
+            <div class="stat-label">Uptime</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Support</div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header fade-in">
+            <h2>Why Choose NexaFlow?</h2>
+            <p>We combine cutting-edge AI with intuitive design to deliver automation solutions that actually work for your business.</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-image fade-in"></div>
+            <div class="about-content fade-in">
+                <h3>Intelligent Automation for Modern Teams</h3>
+                <p>NexaFlow was built from the ground up to solve the complexity problem in business automation. We believe powerful tools shouldn't require a PhD to operate.</p>
+                <p>Our platform uses machine learning to understand your workflows, suggest optimizations, and execute tasks with human-level precision — all while you focus on strategy.</p>
+                <ul class="feature-list">
+                    <li>No-code workflow builder</li>
+                    <li>AI-powered process optimization</li>
+                    <li>Enterprise-grade security</li>
+                    <li>Seamless integrations with 500+ apps</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header fade-in">
+            <h2>Our Services</h2>
+            <p>Comprehensive automation solutions tailored to your business needs.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <div class="service-icon">⚡</div>
+                <h3>Workflow Automation</h3>
+                <p>Design, build, and deploy automated workflows using our visual drag-and-drop interface. Connect triggers, actions, and conditions without writing a single line of code.</p>
+                <a href="#" class="learn-more">Learn More →</a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">🤖</div>
+                <h3>AI Process Mining</h3>
+                <p>Discover inefficiencies in your existing processes using AI analysis. Our system identifies bottlenecks and suggests optimal workflow improvements automatically.</p>
+                <a href="#" class="learn-more">Learn More →</a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">🔌</div>
+                <h3>Integration Hub</h3>
+                <p>Connect with over 500 popular business tools including Salesforce, Slack, Zapier, and custom APIs. Sync data across platforms in real-time.</p>
+                <a href="#" class="learn-more">Learn More →</a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">📊</div>
+                <h3>Analytics Dashboard</h3>
+                <p>Track performance metrics, ROI, and efficiency gains with real-time dashboards. Export reports and share insights with stakeholders effortlessly.</p>
+                <a href="#" class="learn-more">Learn More →</a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">🛡️</div>
+                <h3>Security & Compliance</h3>
+                <p>Bank-level encryption, SOC 2 compliance, and GDPR-ready infrastructure. Your data security is our top priority with 99.99% uptime guarantee.</p>
+                <a href="#" class="learn-more">Learn More →</a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">🎓</div>
+                <h3>Training & Support</h3>
+                <p>Get your team up to speed with personalized onboarding sessions, documentation, and 24/7 dedicated support via chat, email, or phone.</p>
+                <a href="#" class="learn-more">Learn More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="section-header fade-in">
+            <h2>Simple Pricing</h2>
+            <p>Choose the plan that fits your business. Scale up or down anytime.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card fade-in">
+                <h3>Starter</h3>
+                <div class="price">$29<span>/month</span></div>
+                <ul class="pricing-features">
+                    <li>5 Active Workflows</li>
+                    <li>1,000 Tasks/Month</li>
+                    <li>Basic Integrations</li>
+                    <li>Email Support</li>
+                    <li>Community Access</li>
+                </ul>
+                <a href="#" class="btn btn-secondary" style="width: 100%; justify-content: center;">Get Started</a>
+            </div>
+            <div class="pricing-card featured fade-in">
+                <div class="pricing-badge">Most Popular</div>
+                <h3>Professional</h3>
+                <div class="price">$99<span>/month</span></div>
+                <ul class="pricing-features">
+                    <li>Unlimited Workflows</li>
+                    <li>50,000 Tasks/Month</li>
+                    <li>Advanced Integrations</li>
+                    <li>Priority Support</li>
+                    <li>AI Process Mining</li>
+                    <li>Team Collaboration</li>
+                </ul>
+                <a href="#" class="btn btn-primary" style="width: 100%; justify-content: center;">Get Started</a>
+            </div>
+            <div class="pricing-card fade-in">
+                <h3>Enterprise</h3>
+                <div class="price">Custom</div>
+                <ul class="pricing-features">
+                    <li>Everything in Pro</li>
+                    <li>Unlimited Tasks</li>
+                    <li>Custom Integrations</li>
+                    <li>Dedicated Account Manager</li>
+                    <li>SLA Guarantee</li>
+                    <li>On-premise Option</li>
+                </ul>
+                <a href="#" class="btn btn-secondary" style="width: 100%; justify-content: center;">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header fade-in">
+            <h2>What Our Clients Say</h2>
+            <p>Join thousands of businesses already transforming their operations with NexaFlow.</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">"NexaFlow reduced our invoice processing time from 3 days to 3 hours. The AI suggestions are incredibly accurate — it's like having a workflow expert on staff 24/7."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SC</div>
+                    <div class="author-info">
+                        <h4>Sarah Chen</h4>
+                        <p>COO, TechVentures Inc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">"We evaluated 12 automation tools before choosing NexaFlow. The no-code interface meant our non-technical team could build complex workflows without IT dependency."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MR</div>
+                    <div class="author-info">
+                        <h4>Michael Rodriguez</h4>
+                        <p>Operations Director, ScaleUp Co</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">"The ROI was visible within the first month. We automated our customer onboarding process and saw a 40% increase in customer satisfaction scores. Absolutely game-changing."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">EJ</div>
+                    <div class="author-info">
+                        <h4>Emily Johnson</h4>
+                        <p>VP of Customer Success, CloudFirst</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <h2>Ready to Transform Your Business?</h2>
+        <p>Join 10,000+ companies already using NexaFlow to automate their workflows. Start your free 14-day trial today — no credit card required.</p>
+        <a href="#" class="btn">Start Free Trial →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">NexaFlow</div>
+                <p>Empowering businesses with intelligent automation. Built for teams who want to work smarter, not harder.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Changelog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Status</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> NexaFlow Technologies. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
